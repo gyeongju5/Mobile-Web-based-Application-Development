@@ -1,0 +1,49 @@
+:root {
+	--primary-color: #e50914;
+	--dark-color: #141414;
+	--light-color: #f4f4f4;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  /* width: 70%; */
+  justify-content: center;
+  align-items: center;
+}
+
+table thead th {
+  text-transform: uppercase;
+  padding: 0.8rem;
+}
+
+table tr td {
+  text-align: center;
+  color: #999;
+	padding: 0.8rem 1.2rem;
+	text-align: center;
+}
+
+.table tbody tr:nth-child(even) {
+	background: #222;
+}
+
+.table tbody tr:nth-child(odd) {
+	background: #3d3d3d;
+}
